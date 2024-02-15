@@ -1,0 +1,149 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Portfolio Deborah Soccio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="">
+    <!-- sass -->
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+</head>
+<body>
+    <!-- navbar -->
+    {% include "includes/header.html" %}
+
+      <section id="apropos" class="container parallax">
+        <div class="apropos-cover">
+          <div class="apropos-content">
+            <h1 class="wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="1s">DEBORAH SOCCIO</h1>
+            <div class="content-title-underline2"></div>
+            <p>Actuellement étudiante en développement IA chez Simplon débouchant sur les métiers de la Data, je recherche activement une alternance d’un an à partir de septembre 2024 au rythme de 3 semaines entreprise/1 semaine en formation.<br><br>
+
+              Passionnée par l'IA et la Data, je suis prête à mettre mes compétences au service de votre entreprise pour contribuer à son succès.
+            </p>
+            <img src="static/img/deb1.png" alt="portrait">
+          </div>
+        </div>
+      </section>
+      
+      <section id="hardskills">
+        <div class="hardskills-title">
+          <h1 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">dev ia & dev web</h1>
+          <div class="content-title-underline"></div>
+        </div>
+        <div id="hardskills-content">
+          <div class="ia">
+            <ul>
+              <img src="static/img/icons/ebrecher.png" alt="logo IA" class="logo-skills">
+              <li><strong>Concevoir, créer et interroger une base de donnée</strong> : MySQL, SqlLite3, 
+              PostgreSQL, MongoDB, UML</li>
+              <li><strong>Manipuler des données</strong> : Python, SQL, Pandas, Numpy</li>
+              <li><strong>Créer des visualisations</strong> : Seaborn, Matplotlib, Plotly, Tableau</li>
+              <li><strong>Mettre en place un algorithme de machine learning</strong> : Scikit learn, Keras, 
+                  Pytorch, Tensorflow</li>
+              <li><strong>Mettre en place une application intégrant l’IA</strong> : Streamlit, Flask</li>
+              <li><strong>Gestion de projet </strong>: Git, Github, Scrum, Agile, ML Flow</li>
+              <li><strong>Certification</strong> : Azure Certification AZ-900 et AI-900 (en cours), Agile (en cours)</li>
+            </ul>
+          </div>
+          <div class="web">
+            <ul>
+              <img src="static/img/icons/programmation.png" alt="logo WEB" class="logo-skills">
+              <li><strong>CMS Drupal</strong> :<br> Définir un thème front par défaut et un thème d’administration<br>
+              Créer son propre thème front et définir ses régions<br>
+              Système de templating, créer des blocks dans le module<br>
+              Créer son propre thème front et définir ses régions<br>
+              Utiliser Twig, créer des vues avec View module<br>
+              Créer un formulaire de configuration, créer un import csv<br>
+              Récupérer les données d’un formulaire, faire des renders et des preprocess<br>
+              Créer un formulaire(api form Drupal, webform module)<br>
+              Utiliser les modules Paragraph, Inline Entity form, Média<br>
+              </li>
+              <li>CMS headless Scrapy</li>
+              <li><strong>Compétences Front</strong> : HTML/CSS/SASS<br>JS,jquery<br>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projets" class="parallax">
+        <div class="projets-title">
+          <h1 class="wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="1s">Mes projets</h1>
+          <div class="content-title-underline"></div>
+        </div>
+        
+        <div class="grid">
+          <div class="card card1 wow animated fadeInRight"><a href="https://github.com/Memory77/Wa-tor" target="_blank">WATOR</a></div> 
+          <div class="card card2"><a href="https://github.com/Memory77/jeu_pendu" target="_blank">PENDU</a></div>
+          <div class="card card3"><a href="https://github.com/Memory77/shoot-em-up" target="_blank">SHOOT-EM-UP</a></div>
+          <div class="card card4"><a href="" target="_blank"></a></div>
+          <div class="card card5"><a href="https://github.com/Memory77/eurovelo" target="_blank">EUROVELO</a></div>
+          <div class="card card6"><a href="https://github.com/Memory77/Road-crossing-game" target="_blank">ROAD-CROSSING-GAME</a></div>
+          <div class="card card7"><a href="" target="_blank"></a></div>
+        </div>
+    
+      </section>
+     
+      <section id="formations" class="parallax">
+        <div class="formations-title">
+          <h1 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">Mes formations</h1>
+          <div class="content-title-underline"></div>
+        </div>
+
+
+        
+        <div class="formations-content">
+
+
+        </div>
+      </section>
+
+      <section id="hobbies">
+        <div class="hobbies-title">
+          <h1 class="wow animated bounceInRight" data-wow-duration="1s" data-wow-delay="1s">Mes hobbies</h1>
+          <div class="content-title-underline"></div>
+        </div>
+        <div id="hobbies-content" class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="static/img/painting.png" alt="img">
+            <p>Peinture & dessin</p>
+          </div>
+          <div class="item">
+            <img src="static/img/clavier-electrique-abstrait-dans-teintes-violettes-rayonnantes_1060272-1767.avif" alt="img">
+            <p>Piano & composer</p>
+            <a href="https://soundcloud.com/user-667744833/passage-1" target="_blank">ECOUTER</a>
+          </div>
+          <div class="item">
+            <img src="static/img/837bcff68819ccc5e987dc998d03093b.jpg" alt="img">
+            <p>Jeux vidéos</p>
+          </div>
+        </div>
+      </section>
+
+     
+    <!-- footer -->
+    {% include "includes/footer.html" %}
+    
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- wow  -->
+    <script src="{% static "js/wow/wow.min.js" %}"></script>
+
+    <!-- owl carousel JS -->
+    <script src="{% static "js/owl-carousel/owl.carousel.min.js" %}"></script> 
+
+    <!-- easing JS -->
+    <script src="{% static "js/easing/jquery.easing.1.3.js" %}"></script> 
+
+
+    <!-- script js -->
+    <script src="{% static "js/custom.js" %}"></script>
+    
+</body>
+</html>
